@@ -14,7 +14,7 @@
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin: 2rem 0; justify-content: center;">
   <span style="background: linear-gradient(45deg, #667eea, #764ba2); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; font-size: 1.1rem; cursor: pointer; transition: transform 0.2s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-    # Vue.js <small style="opacity: 0.8;">(23)</small>
+    # Vue.js <small style="opacity: 0.8;">(24)</small>
   </span>
   <span style="background: linear-gradient(45deg, #f093fb, #f5576c); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; font-size: 1.1rem; cursor: pointer; transition: transform 0.2s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
     # 国风文化 <small style="opacity: 0.8;">(18)</small>
@@ -23,7 +23,7 @@
     # 生活感悟 <small style="opacity: 0.8;">(15)</small>
   </span>
   <span style="background: linear-gradient(45deg, #43e97b, #38f9d7); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; font-size: 1.1rem; cursor: pointer; transition: transform 0.2s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-    # 技术分享 <small style="opacity: 0.8;">(32)</small>
+    # 技术分享 <small style="opacity: 0.8;">(33)</small>
   </span>
   <span style="background: linear-gradient(45deg, #fa709a, #fee140); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; font-size: 1.1rem; cursor: pointer; transition: transform 0.2s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
     # 摄影 <small style="opacity: 0.8;">(12)</small>
@@ -35,7 +35,7 @@
 <div style="background: #f8f9fa; padding: 2rem; border-radius: 12px; margin: 2rem 0;">
   <h3 style="margin-bottom: 1.5rem; color: #2c3e50;">💻 前端技术</h3>
   <div style="display: flex; flex-wrap: wrap; gap: 0.8rem;">
-    <span style="background: #42b883; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer;">Vue.js (23)</span>
+    <span style="background: #42b883; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer;">Vue.js (24)</span>
     <span style="background: #61dafb; color: #333; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer;">React (18)</span>
     <span style="background: #f7df1e; color: #333; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer;">JavaScript (45)</span>
     <span style="background: #3178c6; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer;">TypeScript (28)</span>
@@ -44,6 +44,9 @@
     <span style="background: #06b6d4; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer;">Tailwind CSS (12)</span>
     <span style="background: #646cff; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer;">Vite (16)</span>
     <span style="background: #8dd6f9; color: #333; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer;">Webpack (14)</span>
+    <span style="background: #667eea; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer;">VitePress (1)</span>
+    <span style="background: #f39c12; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer;">博客搭建 (1)</span>
+    <span style="background: #2ecc71; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer;">静态网站 (1)</span>
   </div>
 </div>
 

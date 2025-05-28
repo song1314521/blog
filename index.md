@@ -79,7 +79,7 @@ features:
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="font-size: 2rem; font-weight: bold;">128</div>
+  <div style="font-size: 2rem; font-weight: bold;">129</div>
   <div style="opacity: 0.9;">文章总数</div>
 </div>
 
@@ -89,12 +89,12 @@ features:
 </div>
 
 <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="font-size: 2rem; font-weight: bold;">156</div>
+  <div style="font-size: 2rem; font-weight: bold;">159</div>
   <div style="opacity: 0.9;">标签数量</div>
 </div>
 
 <div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: white; padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="font-size: 2rem; font-weight: bold;">2.3K</div>
+  <div style="font-size: 2rem; font-weight: bold;">2.5K</div>
   <div style="opacity: 0.9;">访问量</div>
 </div>
 
@@ -103,6 +103,18 @@ features:
 ## 🔥 最新文章
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+
+<div style="border: 1px solid #e1e5e9; border-radius: 12px; padding: 1.5rem; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.05); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+  <div style="color: #667eea; font-size: 0.9rem; margin-bottom: 0.5rem;">💻 技术分享</div>
+  <h3 style="margin: 0.5rem 0; color: #2c3e50;">
+    <a href="/vitepress-blog-guide" style="text-decoration: none; color: inherit;">从零开始用VitePress搭建个人博客 - 完整指南</a>
+  </h3>
+  <p style="color: #666; font-size: 0.9rem; line-height: 1.6;">详细讲解如何使用VitePress从零开始搭建一个功能完整的个人博客，包含主题配置、文章管理、SEO优化等实用功能...</p>
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; font-size: 0.8rem; color: #999;">
+    <span>2024-01-20</span>
+    <span>阅读量: 2.1K</span>
+  </div>
+</div>
 
 <div style="border: 1px solid #e1e5e9; border-radius: 12px; padding: 1.5rem; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.05); transition: transform 0.3s ease, box-shadow 0.3s ease;">
   <div style="color: #3eaf7c; font-size: 0.9rem; margin-bottom: 0.5rem;">📝 技术分享</div>
@@ -124,16 +136,6 @@ features:
   </div>
 </div>
 
-<div style="border: 1px solid #e1e5e9; border-radius: 12px; padding: 1.5rem; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.05); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-  <div style="color: #9b59b6; font-size: 0.9rem; margin-bottom: 0.5rem;">📚 读书笔记</div>
-  <h3 style="margin: 0.5rem 0; color: #2c3e50;">《人间词话》读后感</h3>
-  <p style="color: #666; font-size: 0.9rem; line-height: 1.6;">王国维先生的《人间词话》，以其独特的美学观点和深刻的文学见解，为我们打开了一扇通往古典诗词美学的大门...</p>
-  <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; font-size: 0.8rem; color: #999;">
-    <span>2024-01-10</span>
-    <span>阅读量: 642</span>
-  </div>
-</div>
-
 </div>
 
 ## 🎯 热门标签
@@ -147,6 +149,7 @@ features:
   <span style="background: linear-gradient(45deg, #a8edea, #fed6e3); color: #333; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer; transition: transform 0.2s ease;"># 读书笔记</span>
   <span style="background: linear-gradient(45deg, #ffecd2, #fcb69f); color: #333; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer; transition: transform 0.2s ease;"># 音乐</span>
   <span style="background: linear-gradient(45deg, #a8caba, #5d4e75); color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer; transition: transform 0.2s ease;"># 旅行</span>
+  <span style="background: linear-gradient(45deg, #667eea, #764ba2); color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; cursor: pointer; transition: transform 0.2s ease;"># VitePress</span>
 </div>
 
 ## 💝 友情链接

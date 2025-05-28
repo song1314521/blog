@@ -26,6 +26,32 @@
 
 <div style="display: grid; gap: 2rem; margin: 2rem 0;">
 
+<!-- 新增文章：VitePress博客搭建指南 -->
+<article style="border: 1px solid #e1e5e9; border-radius: 12px; padding: 2rem; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.05); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      <span style="background: #3eaf7c; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">技术分享</span>
+      <span style="background: #667eea; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">VitePress</span>
+      <span style="background: #f39c12; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">博客搭建</span>
+    </div>
+    <span style="color: #999; font-size: 0.9rem;">2024-01-20</span>
+  </div>
+  <h2 style="margin: 1rem 0; color: #2c3e50;">
+    <a href="/vitepress-blog-guide" style="text-decoration: none; color: inherit; hover: color: #3eaf7c;">从零开始用VitePress搭建个人博客 - 完整指南</a>
+  </h2>
+  <p style="color: #666; line-height: 1.6; margin-bottom: 1.5rem;">
+    详细讲解如何使用VitePress从零开始搭建一个功能完整的个人博客，包含主题配置、文章管理、SEO优化等实用功能。VitePress是基于Vite和Vue 3的静态站点生成器，具有极快的构建速度、优秀的开发体验和强大的自定义能力。本文将带你从环境准备到部署上线的完整流程...
+  </p>
+  <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem; color: #999;">
+    <div style="display: flex; gap: 1rem;">
+      <span>👀 2.1K 阅读</span>
+      <span>💬 45 评论</span>
+      <span>👍 298 点赞</span>
+    </div>
+    <a href="/vitepress-blog-guide" style="color: #3eaf7c; text-decoration: none;">阅读全文 →</a>
+  </div>
+</article>
+
 <!-- 文章1 -->
 <article style="border: 1px solid #e1e5e9; border-radius: 12px; padding: 2rem; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.05); transition: transform 0.3s ease, box-shadow 0.3s ease;">
   <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">

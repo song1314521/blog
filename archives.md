@@ -9,7 +9,7 @@
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="font-size: 2rem; font-weight: bold;">128</div>
+  <div style="font-size: 2rem; font-weight: bold;">129</div>
   <div style="opacity: 0.9;">文章总数</div>
 </div>
 
@@ -19,12 +19,12 @@
 </div>
 
 <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="font-size: 2rem; font-weight: bold;">23.5K</div>
+  <div style="font-size: 2rem; font-weight: bold;">25.6K</div>
   <div style="opacity: 0.9;">总阅读量</div>
 </div>
 
 <div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: white; padding: 1.5rem; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="font-size: 2rem; font-weight: bold;">456</div>
+  <div style="font-size: 2rem; font-weight: bold;">501</div>
   <div style="opacity: 0.9;">总评论数</div>
 </div>
 
@@ -33,7 +33,7 @@
 ## 📅 按年份浏览
 
 <div style="display: flex; gap: 1rem; margin: 2rem 0; flex-wrap: wrap; justify-content: center;">
-  <button style="padding: 0.8rem 1.5rem; border: 1px solid #3eaf7c; background: #3eaf7c; color: white; border-radius: 25px; cursor: pointer; font-size: 1rem; transition: all 0.3s ease;">2024 (45篇)</button>
+  <button style="padding: 0.8rem 1.5rem; border: 1px solid #3eaf7c; background: #3eaf7c; color: white; border-radius: 25px; cursor: pointer; font-size: 1rem; transition: all 0.3s ease;">2024 (46篇)</button>
   <button style="padding: 0.8rem 1.5rem; border: 1px solid #ddd; background: white; color: #666; border-radius: 25px; cursor: pointer; font-size: 1rem; transition: all 0.3s ease;">2023 (58篇)</button>
   <button style="padding: 0.8rem 1.5rem; border: 1px solid #ddd; background: white; color: #666; border-radius: 25px; cursor: pointer; font-size: 1rem; transition: all 0.3s ease;">2022 (25篇)</button>
 </div>
@@ -49,11 +49,32 @@
 <div style="margin-bottom: 3rem;">
   <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
     <div style="background: #3eaf7c; color: white; padding: 0.8rem 1.5rem; border-radius: 25px; font-weight: bold; margin-right: 1rem; z-index: 1; position: relative;">
-      2024年1月 (8篇)
+      2024年1月 (9篇)
     </div>
   </div>
   
   <div style="margin-left: 4rem; display: grid; gap: 1rem;">
+    
+    <!-- 新增：VitePress博客搭建指南 -->
+    <div style="border: 1px solid #e1e5e9; border-radius: 8px; padding: 1.5rem; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05); position: relative;">
+      <div style="position: absolute; left: -2.5rem; top: 1.5rem; width: 12px; height: 12px; background: #667eea; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 0 2px #667eea;"></div>
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+        <div style="display: flex; gap: 0.3rem; flex-wrap: wrap;">
+          <span style="background: #3eaf7c; color: white; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem;">技术分享</span>
+          <span style="background: #667eea; color: white; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem;">VitePress</span>
+        </div>
+        <span style="color: #999; font-size: 0.9rem;">01-20</span>
+      </div>
+      <h3 style="margin: 0.5rem 0; color: #2c3e50;">
+        <a href="/vitepress-blog-guide" style="text-decoration: none; color: inherit;">从零开始用VitePress搭建个人博客 - 完整指南</a>
+      </h3>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;">详细讲解如何使用VitePress从零开始搭建一个功能完整的个人博客，包含主题配置、文章管理、SEO优化等实用功能...</p>
+      <div style="display: flex; gap: 1rem; font-size: 0.8rem; color: #999;">
+        <span>👀 2.1K</span>
+        <span>💬 45</span>
+        <span>👍 298</span>
+      </div>
+    </div>
     
     <div style="border: 1px solid #e1e5e9; border-radius: 8px; padding: 1.5rem; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05); position: relative;">
       <div style="position: absolute; left: -2.5rem; top: 1.5rem; width: 12px; height: 12px; background: #3eaf7c; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 0 2px #3eaf7c;"></div>
@@ -204,7 +225,7 @@
     <div style="display: flex; flex-direction: column; align-items: center; flex: 1;">
       <div style="background: #3eaf7c; width: 100%; height: 80px; border-radius: 4px 4px 0 0; margin-bottom: 0.5rem;"></div>
       <span style="font-size: 0.8rem; color: #666;">1月</span>
-      <span style="font-size: 0.7rem; color: #999;">8篇</span>
+      <span style="font-size: 0.7rem; color: #999;">9篇</span>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex: 1;">
       <div style="background: #667eea; width: 100%; height: 60px; border-radius: 4px 4px 0 0; margin-bottom: 0.5rem;"></div>
