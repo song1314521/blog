@@ -1,0 +1,370 @@
+/* 云帆博客自定义样式 */
+
+/* 全局变量 */
+:root {
+  --primary-color: #3eaf7c;
+  --secondary-color: #667eea;
+  --accent-color: #f093fb;
+  --text-color: #2c3e50;
+  --bg-color: #ffffff;
+  --border-color: #e1e5e9;
+  --shadow-light: 0 2px 12px rgba(0,0,0,0.05);
+  --shadow-medium: 0 4px 20px rgba(0,0,0,0.1);
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  --border-radius: 12px;
+  --transition: all 0.3s ease;
+}
+
+/* 国风色彩主题 */
+.guofeng-theme {
+  --ink-black: #2c3e50;
+  --bamboo-green: #3eaf7c;
+  --plum-purple: #9b59b6;
+  --sunset-orange: #f39c12;
+  --cloud-white: #ffffff;
+  --mist-gray: #f8f9fa;
+}
+
+/* 全局样式优化 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
+
+/* 动画效果 */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* 卡片悬停效果 */
+.card-hover {
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-medium);
+}
+
+/* 渐变文字效果 */
+.gradient-text {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+/* 标签样式增强 */
+.tag {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.tag:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-light);
+}
+
+/* 按钮样式 */
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--gradient-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+}
+
+.btn-secondary {
+  background: var(--gradient-secondary);
+  color: white;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* 统计卡片样式 */
+.stats-card {
+  background: var(--gradient-primary);
+  color: white;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+  box-shadow: var(--shadow-medium);
+  transition: var(--transition);
+}
+
+.stats-card:hover {
+  transform: translateY(-5px);
+  animation: pulse 2s infinite;
+}
+
+.stats-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.stats-label {
+  opacity: 0.9;
+  font-size: 1.1rem;
+}
+
+/* 文章卡片样式 */
+.article-card {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  background: var(--bg-color);
+  box-shadow: var(--shadow-light);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.article-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--gradient-primary);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.article-card:hover::before {
+  transform: scaleX(1);
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-medium);
+}
+
+/* 时间线样式 */
+.timeline {
+  position: relative;
+  margin: 2rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 2rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--gradient-primary);
+  border-radius: 1px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -2.5rem;
+  top: 1.5rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px var(--primary-color);
+  z-index: 1;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .stats-card {
+    padding: 1.5rem;
+  }
+  
+  .stats-number {
+    font-size: 2rem;
+  }
+  
+  .article-card {
+    padding: 1.5rem;
+  }
+  
+  .timeline::before {
+    left: 1rem;
+  }
+  
+  .timeline-dot {
+    left: -1.5rem;
+  }
+}
+
+/* 深色模式适配 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #e2e8f0;
+    --bg-color: #1a202c;
+    --border-color: #2d3748;
+    --mist-gray: #2d3748;
+  }
+  
+  .article-card {
+    background: #2d3748;
+    border-color: #4a5568;
+  }
+  
+  .timeline-dot {
+    border-color: #2d3748;
+  }
+}
+
+/* 特殊效果 */
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* 国风装饰元素 */
+.guofeng-decoration {
+  position: relative;
+}
+
+.guofeng-decoration::before {
+  content: '❀';
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  opacity: 0.3;
+}
+
+/* 毛笔字效果 */
+.brush-text {
+  font-family: 'KaiTi', '楷体', serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* 印章效果 */
+.seal {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: #d32f2f;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'KaiTi', '楷体', serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+  transform: rotate(-5deg);
+}
+
+/* 水墨效果 */
+.ink-wash {
+  background: radial-gradient(circle, rgba(44,62,80,0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* 竹子装饰 */
+.bamboo-decoration {
+  position: relative;
+}
+
+.bamboo-decoration::after {
+  content: '🎋';
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2rem;
+  opacity: 0.1;
+  pointer-events: none;
+} 
