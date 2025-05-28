@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "云帆的国风世界",
   description: "乘风破浪，诗意远航 - 记录技术与生活的美好瞬间",
+  outDir: './dist', // 相对于项目根目录
   head: [
     ['link', { rel: 'icon', href: '/images/homePage.png' }],
     ['meta', { name: 'keywords', content: '云帆,博客,技术分享,国风文化,生活感悟,Vue.js,前端开发' }],

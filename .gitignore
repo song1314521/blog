@@ -7,6 +7,7 @@ yarn-error.log*
 # VitePress build output
 .vitepress/dist/
 .vitepress/cache/
+dist/
 
 # Environment variables
 .env
